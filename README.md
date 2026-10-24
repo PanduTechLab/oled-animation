@@ -1,4 +1,4 @@
-# OLED Animation
+# OLED Video Stream
 
 Stream any video to a 128x64 SSD1306 OLED display over Wi-Fi, using a Python script on your PC and an ESP32 as the receiver.
 
@@ -163,4 +163,17 @@ python streamer.py video.mp4 --ip 192.168.1.50 --fps 12 --mode threshold --thres
 - **Choppy video or dropped frames**: lower `--fps`. UDP does not confirm delivery, so lost packets are simply skipped.
 - **Image too dark or too bright**: use `--mode threshold` and adjust `--threshold`, or switch to `--mode dither`.
 
+## 📄 License
+
+Feel free to use, modify, and share this project for personal or educational purposes. Credit is appreciated but not required.
+
+## 🙌 Credits
+
+Created by **GSNCREATIONS**
+
+- YouTube: [@pandustechlab](https://www.youtube.com/@pandustechlab)
+- Instagram: [@pandustechlab](https://instagram.com/pandustechlab)
+  
+Learn like an Engineer, Be like an Engineer!
+Keep Creating • Keep Learning • Keep Innovating
 
